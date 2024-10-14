@@ -57,5 +57,142 @@
     cursor: pointer;
 }
 
+.web{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.web .cont{
+    width: 80%;
+    height: 200vh;
+    padding: 100px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+
+}
+.web .cont .title{
+    font-size: x-large;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.web .cont .card{
+    width: 100%;
+    height: 35%;
+    border: 2px solid rgb(206, 202, 202);
+    border-radius: 10px;
+    /* background-color: rgb(206, 202, 202); */
+    margin-top: 100px;
+    display: flex;
+}
+
+.card .left{
+    height: 100%;
+    width: 70%;
+    /* border: 2px solid black; */
+    padding: 20px 30px;
+}
+.card .right{
+    height: 100%;
+    width: 30%;
+    /* border: 2px solid black; */
+}
 
 
+.left h1{
+    font-size: xx-large;
+}
+.left p{
+    margin-top: 25px;
+    font-size: x-large;
+    color: rgb(78, 78, 78);
+}
+
+.left button{
+    margin-top: 25px;
+    padding: 10px 20px;
+    font-size: x-large;
+    background-color: aliceblue;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.right img{
+    margin: 30px 0px;
+}
+
+
+
+.ins{
+    display: flex;
+    justify-content: center;
+}
+
+.ins .cont{
+    width: 80%;
+    height: 150vh;
+    /* border: 2px solid black; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.ins .cont .title{
+    width: 60%;
+   
+}
+.ins .cont h1{
+    font-size: xx-large;
+    text-align: center;
+    
+}
+.ins .cont p{
+    margin-top: 10px;
+    font-size: large;
+    color: rgb(78, 78, 78);
+    text-align: center;
+}
+
+.video{
+    width: 90%;
+    height: 90vh;
+    padding: 30px;
+    border: 2px solid rgb(170, 168, 168);
+    border-radius: 20px;
+    margin-top: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+
+.video iframe{
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+
+.target{
+    width: 100%;
+    height: 100vh;
+    border: 2px solid black;
+}
+
+
+.target .tar_title h1{
+    font-size: xx-large;
+    text-align: center;
+}
+.target .tar_title p{
+    font-size: larger;
+    color: rgb(78, 78, 78);
+    text-align: center;
+
+}
+
+.target .cont{
+   
+}
+
+  
