@@ -107,11 +107,15 @@
 }
 .left p{
     margin-top: 25px;
-    font-size: x-large;
+    font-size: larger;
     color: rgb(78, 78, 78);
 }
-
-.left button{
+.left .btn{
+    margin-top:30px ;
+}
+.left .btn a{
+    text-decoration: none;
+    color: grey;
     margin-top: 25px;
     padding: 10px 20px;
     font-size: x-large;
@@ -180,6 +184,9 @@
     flex-direction: column;
     align-items: center;
 }
+.target .tar_title{
+    margin: 0px 200px;
+}
 
 .target .tar_title h1{
     font-size: xx-large;
@@ -189,6 +196,7 @@
     font-size: larger;
     color: rgb(78, 78, 78);
     text-align: center;
+    
 
 }
 
@@ -202,7 +210,7 @@
 
 .target .cont .box{
    width: 30%;
-   height: 90%;
+   height: 95%;
    border: 2px solid transparent;
    border-radius: 20px;
    padding: 30px;
@@ -244,6 +252,10 @@
     justify-content: center;
     align-items: center;
 
+}
+
+.support p{
+    text-align: center;
 }
 
 .ftr .support{
